@@ -1,10 +1,13 @@
-# Cat Dog Classifier
+# 🐱🐶 Cat Dog Classifier
 
-一个基于 PyTorch 的猫狗二分类项目，完成了数据读取、模型训练、验证集评估、测试集预测以及 `submission.csv` 生成流程。项目使用 ResNet18 作为基础模型，并在本地 RTX 5070 Laptop GPU 上完成训练。
+一个基于 **PyTorch** 的猫狗二分类项目，实现了从 **数据读取、模型训练、验证集评估、测试集预测** 到 **`submission.csv` 生成** 的完整流程。项目采用 **ResNet18** 作为基础模型，并在本地 **RTX 5070 Laptop GPU** 上完成训练。
 
-## 项目简介
+---
 
-本项目用于实现 Dogs vs Cats 图像分类任务，目标是判断输入图片属于猫还是狗。  
+## 📌 项目简介
+
+本项目用于实现 **Dogs vs Cats** 图像分类任务，目标是判断输入图片属于 **猫（cat）** 还是 **狗（dog）**。
+
 当前版本已经实现：
 
 - 数据集目录检查
@@ -15,7 +18,9 @@
 - 测试集预测
 - 生成符合提交要求的 `submission.csv`
 
-## 项目结构
+---
+
+## 🗂️ 项目结构
 
 ```text
 cat-dog-classifier/
